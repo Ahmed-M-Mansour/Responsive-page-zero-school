@@ -1,0 +1,140 @@
+        /*   ----------- my responsive Designe ------------------   */
+      
+       
+       
+        
+       
+       /*   ---   Mobile screen */
+        @media (max-width: 768px)   
+        {
+            header  .overlay h1
+            {
+                margin-top: 30px;
+            }
+            header  .overlay .paln
+            {
+                float: none;
+                margin:  0 auto 20px;
+                font-size: 22px;
+                padding: 5px;
+            }
+
+            .hidden-mobile
+            {
+                display: none !important ;
+            }
+            
+           .container
+           {
+               width: 70%;
+           }
+
+           .features .feat
+           {
+               width: 100%;
+           }
+
+           .gellary .img 
+           {
+               width: 100%;
+           }
+
+           .pricing-table .plan
+           {
+               width: 100%;
+           }
+
+           .persons .person
+           {
+               width: 100% !important;
+               margin: 0 !important;
+           }
+           .persons .person p
+           {
+               width: 50%;
+           }
+
+
+        }
+
+              /* small screen */ 
+        @media (min-width: 769px)    
+        {
+            
+
+            .container
+           {
+               width: 70%;
+           }
+           
+        }
+        
+       
+        
+        /* Medum  screen */
+        @media (min-width: 992px)    
+        {
+            .container
+           {
+               width: 70%;
+           }
+           .gellary .img 
+           {
+               width: 25%;
+           }
+           
+        }
+        
+         /*Larg  screen */ 
+        @media (min-width: 1200px)  
+        {
+            .container
+           {
+               width: 70%;
+           }
+        }
+        
+        
+        
+        /*    ---------------   My Frame Work */
+        
+ .text-center
+{
+     text-align: center;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.container
+{
+    margin: auto;
+}
+
+.hidden-mobile    , .hidden-s , .hidden-m , .hidden-l 
+{
+    display: block;
+}
+
+.f-l
+{
+    float: left;
+}
+
+
+.f-r
+{
+    float: right;
+}
+
+.h1
+{
+    font-size: 2em;
+}
+
+.responsive-p
+{
+    line-height: 1.8;
+}

@@ -1,0 +1,271 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0 ;
+    font-family: Roboto-BoldItalic;
+}
+
+/*    ----   the styles of the header */
+header
+{
+ 
+  
+    background: url(../images/header.jpg) no-repeat top center; 
+    background-size: cover;
+    min-height: 500px;
+    position: relative; 
+}
+
+header  .overlay
+{
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 168, 255, .5);
+    color: #fff;
+    padding: 10px;
+
+}
+
+header  .overlay h1
+{
+    font-size: 60px; 
+    margin-top: 100px;
+}
+
+header  .overlay .paln
+{
+    border: 4px solid #eee;
+    width: 48%; 
+   margin-left: 1%; 
+   margin-right: 1%;
+   font-size: 30px;
+   padding: 20px;
+   font-size: 30px;
+   transition: all .5s ease ;
+}
+header  .overlay .paln:hover
+{
+    background-color: #09c;
+}
+
+
+header  .overlay .order
+{
+    border: 4px solid #eee;
+    margin: 30px 1% 0 ; 
+    padding: 20px;
+    font-size: 22px;
+    transition: all .5s ease ;
+}
+
+header  .overlay .order:hover
+{
+    background-color: #09c;
+}
+
+
+
+
+
+
+
+/*    -----   The styles of features section */ 
+
+ .features
+{
+    padding: 20px;
+    color: #555;
+
+    
+ }
+
+ .features .feat{
+     width: 30.3%;
+     padding: 20px;
+     margin: 10px  1%  0 ;
+ }
+
+
+ .about
+ {
+     background-color: #eee;
+     padding: 20px  ;
+ }
+
+ .about .h1
+ {
+     font-size: 50px;
+ }
+
+.about .responsive-p 
+{
+    font-size: 20px ;
+}
+
+
+.gellary .img 
+{
+    width: 25%; 
+ 
+    padding: 10px;
+    
+}
+.gellary .img  img
+{
+    width: 100%;
+    height: 256px;
+   
+    display: block;
+}
+
+.pricing-table
+{
+    background-color: rgb(65, 62, 62);
+    padding: 10px; 
+    margin: 10px;
+    color: #eee;
+}
+
+
+.pricing-table h2 
+{
+    font-size: 33px;
+    padding: 20px;
+    color: #eee;
+}
+
+.pricing-table .plan
+{   
+    width: 33.3%;
+    padding: 20px;
+    border: 2px solid #eee;
+    transition: all .5s ; ;
+}
+.pricing-table .plan:hover
+{
+    background-color: rgba(0, 168, 255, .5) ;
+}
+.pricing-table .plan h2
+{
+    font-size: 30px;
+}
+
+.pricing-table .plan ul li 
+{
+    list-style: none;
+    font-size: 20px;
+}
+
+.pricing-table .plan button 
+{
+    border-radius: 6px;
+    width: 150px;
+    font-size: 20px;
+    background-color: rgba(0, 168, 255, .5) ; 
+    margin-top: 10px;
+    transition: all .5s ;
+    opacity: .7;
+}
+
+.pricing-table .plan button:hover{
+    opacity: 1;
+    width: 160px; 
+    border-radius: 10% ;
+}
+
+.persons
+{
+    padding: 20px;
+}
+.persons .h2
+{
+    font-size: 50px; 
+    padding: 20px;
+}
+.persons .person
+{
+    width: 33.3%; 
+    background-color: rgb(164, 164, 199);
+    padding: 30px;
+    border: 2px solid #eee;
+    margin: 10px 0 ;
+}
+
+.persons .person .img
+{
+    width: 120px; 
+    margin-right: 20px; 
+}
+.persons .person .img  img
+{
+    width: 100% ;
+   
+}
+.persons .person h2
+{
+    margin: 20px 0 10px ;
+}
+.persons .person p
+{
+    margin: 0 ;
+    width: 70%;
+    line-height: 1.7; 
+}
+
+
+
+.persons .person:first-of-type
+{
+    width: 50%; 
+    margin-left: 25%;
+}
+
+.persons .person:not(first-of-type)
+{
+    width: 50%; 
+}
+
+.information 
+{
+    background-color: #555;
+}
+.information ul 
+{
+    width: 100%;
+}
+
+.information  ul li 
+{
+    list-style: none;
+    padding: 15px;
+    display: inline-block;
+    background-color: #ddd;
+     
+    margin-left: 1px; 
+   cursor: pointer;
+   width: 18%;
+   overflow: hidden;
+}
+.information  ul li.selected
+{
+    background-color:#fff; 
+    color: rgb(228, 37, 148);
+}
+.information .info-content
+{
+    margin-bottom: 30px;
+}
+.information .info-content div 
+{
+    padding: 10px; 
+    line-height: 2 ;
+}
+
+.information .info-content >div:not(:first-child) 
+{
+    display: none;
+}
